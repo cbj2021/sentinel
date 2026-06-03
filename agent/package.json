@@ -1,0 +1,19 @@
+{
+  "name": "sentinel-agent",
+  "version": "1.0.0",
+  "description": "Sentinel cybersecurity agent daemon for macOS and Windows",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "nodemon agent.js",
+    "pkg:mac": "pkg agent.js --target node18-macos-arm64 --output dist/sentinel-agent-mac",
+    "pkg:win": "pkg agent.js --target node18-win-x64 --output dist/sentinel-agent-win.exe"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "pkg": "^5.8.1"
+  }
+}

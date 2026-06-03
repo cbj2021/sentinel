@@ -1,0 +1,10 @@
+{
+  "apiUrl": "https://your-backend.run.app",
+  "apiKey": "YOUR_AGENT_API_KEY",
+  "autoQuarantine": true,
+  "quarantineDir": "",
+  "scanDepth": 6,
+  "watchPaths": [],
+  "excludePaths": ["node_modules", ".git", "Library/Caches"],
+  "logLevel": "info"
+}

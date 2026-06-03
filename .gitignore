@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.production
+.env*.local
+
+# Build output
+dist/
+build/
+dashboard/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Agent quarantine & compiled binaries
+agent/dist/
+*.quar
+
+# GCP
+.gcloudignore
+
+# AI tool config
+.claude/
+.agents/
+.goose/
+backend/.claude/
+backend/.agents/
+backend/.goose/
+
+# Lock files for skills
+backend/skills-lock.json

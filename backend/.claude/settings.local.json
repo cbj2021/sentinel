@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Neon__run_sql_transaction",
+      "Bash(bash deploy.sh gcp deploy)",
+      "Bash(gcloud billing accounts list *)",
+      "Bash(npm list *)",
+      "Bash(npm install *)",
+      "Bash(vercel deploy *)",
+      "Bash(gcloud run services update *)",
+      "Bash(gcloud run services list *)",
+      "Bash(git -C /Users/cbj2023/sentinel status)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
